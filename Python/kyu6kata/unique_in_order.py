@@ -28,6 +28,3 @@ def best_unique_in_order(iterable):
             result.append(char)
             prev = char
     return result
-
-print(mine_unique_in_order('AAAABBBCCDAABBB'))
-print(best_unique_in_order([1, 2, 2, 3, 3]))
